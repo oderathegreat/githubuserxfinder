@@ -89,7 +89,7 @@ function Findprofile() {
             <div className="row justify-content-center mt-5">
                 <form id="myform" autoComplete='off' onSubmit={onSubmitHandler}>
                     <div className="col-lg-8 col-sm-12 my-2 form-group">
-                        <input className="form-control form-control-lg" placeholder="Github username" type={userName} id="w" onChange={onChangeHandler} />
+                        <input className="border-2 border-gray-300 bg-white h-10 px-5 pr-26 rounded-lg text-sm focus:outline-none" placeholder="search username" type={userName} id="w" onChange={onChangeHandler} />
                     </div>
                     <div>
                         <div className="col-lg-3 col-sm-12 my-2 form-group">
