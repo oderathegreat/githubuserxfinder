@@ -1,11 +1,12 @@
 import logo from './logo.svg';
+import Findprofile from './components/Findprofile';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div>
  
- <h1>first build</h1>
+ <Findprofile/>
     </div>
   );
 }
